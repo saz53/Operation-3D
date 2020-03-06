@@ -1,2 +1,2 @@
 # Operation VR
- Honors DND Unity VR Game
+ Design & Development, Spring 2020
