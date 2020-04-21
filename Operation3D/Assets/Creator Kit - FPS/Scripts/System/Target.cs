@@ -10,6 +10,7 @@ public class Target : MonoBehaviour
     public int pointValue;
 
     public ParticleSystem DestroyedEffect;
+    public GameObject RedBloodCellUI;
 
     [Header("Audio")]
     public RandomPlayer HitPlayer;
@@ -65,9 +66,13 @@ public class Target : MonoBehaviour
         }
 
         m_Destroyed = true;
-        
         gameObject.SetActive(false);
-       
+	       
         GameSystem.Instance.TargetDestroyed(pointValue);
+	RedBloodCellUI.SetActive(true);
+        Destroy(RedBloodCellUI, 5);
+	
+	
     }
+	
 }
