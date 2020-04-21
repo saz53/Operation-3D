@@ -69,8 +69,10 @@ public class TargetSoda : MonoBehaviour
         gameObject.SetActive(false);
 	       
         GameSystem.Instance.TargetDestroyed(pointValue);
+	if(SodaUI != null){
 	SodaUI.SetActive(true);
         Destroy(SodaUI, 5);
+	}
 	
 	
     }

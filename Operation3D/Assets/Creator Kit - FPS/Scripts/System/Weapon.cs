@@ -264,6 +264,7 @@ public class Weapon : MonoBehaviour
 		TargetSoda targetSoda = hit.collider.gameObject.GetComponent<TargetSoda>();
 		TargetSmoke targetSmoke = hit.collider.gameObject.GetComponent<TargetSmoke>();
 		TargetWeight targetWeight = hit.collider.gameObject.GetComponent<TargetWeight>();
+		TargetGerm targetGerm = hit.collider.gameObject.GetComponent<TargetGerm>();
 		if(target != null){
                 	target.Got(damage);
 		}
@@ -281,6 +282,9 @@ public class Weapon : MonoBehaviour
 		}
 		else if(targetWeight != null){
 			targetWeight.Got(damage);
+		}
+		else if(targetGerm != null){
+			targetGerm.Got(damage);
 		}
             }
         }

@@ -69,9 +69,10 @@ public class Target : MonoBehaviour
         gameObject.SetActive(false);
 	       
         GameSystem.Instance.TargetDestroyed(pointValue);
+	if(RedBloodCellUI != null){
 	RedBloodCellUI.SetActive(true);
         Destroy(RedBloodCellUI, 5);
-	
+	}
 	
     }
 	

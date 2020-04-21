@@ -69,9 +69,10 @@ public class TargetSmoke : MonoBehaviour
         gameObject.SetActive(false);
 	       
         GameSystem.Instance.TargetDestroyed(pointValue);
+	if(WhiteSmokeUI != null){
 	WhiteSmokeUI.SetActive(true);
         Destroy(WhiteSmokeUI,5);
-	
+	}
 	
     }
 	

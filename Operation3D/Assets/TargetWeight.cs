@@ -69,9 +69,10 @@ public class TargetWeight : MonoBehaviour
         gameObject.SetActive(false);
 	       
         GameSystem.Instance.TargetDestroyed(pointValue);
+	if(WeightUI != null){
 	WeightUI.SetActive(true);
         Destroy(WeightUI, 5);
-	
+	}
 	
     }
 	

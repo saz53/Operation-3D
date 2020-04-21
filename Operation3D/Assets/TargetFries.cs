@@ -69,8 +69,10 @@ public class TargetFries : MonoBehaviour
         gameObject.SetActive(false);
 	       
         GameSystem.Instance.TargetDestroyed(pointValue);
+	if(FriesUI != null){
 	FriesUI.SetActive(true);
         Destroy(FriesUI, 5);
+	}
 	
 	
     }
