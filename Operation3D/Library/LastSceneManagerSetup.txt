@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Creator Kit - FPS/Scenes/HeartScene.unity
-=======
 - path: Assets/Creator Kit - FPS/Scenes/Mouth.unity
->>>>>>> master
   isLoaded: 1
   isActive: 1
   isSubScene: 0
