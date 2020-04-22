@@ -1,0 +1,8 @@
+
+*.graph
+Operation3D/Library/ArtifactDB
+Operation3D/Library/EditorSnapSettings.asset
+*.meta
+*.meta
+Operation3D/Library/EditorUserBuildSettings.asset
+Operation3D/Library/InspectorExpandedItems.asset

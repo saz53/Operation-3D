@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	"process_id" : 7499,
+=======
+	"process_id" : 737,
+>>>>>>> 72f857598a58bff6ef7c7a294ea62d426f40e95c
 	"version" : "2019.3.9f1",
 	"app_path" : "/Users/kinjalpatel/Unity/2019.3.9f1/Unity.app",
 	"app_contents_path" : "/Users/kinjalpatel/Unity/2019.3.9f1/Unity.app/Contents"
