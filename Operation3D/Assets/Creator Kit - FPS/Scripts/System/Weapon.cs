@@ -259,33 +259,38 @@ public class Weapon : MonoBehaviour
             if (hit.collider.gameObject.layer == 10)
             {
                 Target target = hit.collider.gameObject.GetComponent<Target>();
-		TargetBone targetBone = hit.collider.gameObject.GetComponent<TargetBone>();
-		TargetFries targetFries = hit.collider.gameObject.GetComponent<TargetFries>();
-		TargetSoda targetSoda = hit.collider.gameObject.GetComponent<TargetSoda>();
-		TargetSmoke targetSmoke = hit.collider.gameObject.GetComponent<TargetSmoke>();
-		TargetWeight targetWeight = hit.collider.gameObject.GetComponent<TargetWeight>();
-		TargetGerm targetGerm = hit.collider.gameObject.GetComponent<TargetGerm>();
-		if(target != null){
+		        TargetBone targetBone = hit.collider.gameObject.GetComponent<TargetBone>();
+		        TargetFries targetFries = hit.collider.gameObject.GetComponent<TargetFries>();
+		        TargetSoda targetSoda = hit.collider.gameObject.GetComponent<TargetSoda>();
+		        TargetSmoke targetSmoke = hit.collider.gameObject.GetComponent<TargetSmoke>();
+		        TargetWeight targetWeight = hit.collider.gameObject.GetComponent<TargetWeight>();
+		        TargetGerm targetGerm = hit.collider.gameObject.GetComponent<TargetGerm>();
+                TargetTeeth targetTeeth = hit.collider.gameObject.GetComponent<TargetTeeth>();
+
+		        if(target != null){
                 	target.Got(damage);
-		}
-		else if(targetBone != null){
-			targetBone.Got(damage);
-		}
-		else if(targetFries != null){
-			targetFries.Got(damage);
-		}
-		else if(targetSoda != null){
-			targetSoda.Got(damage);
-		}
-		else if (targetSmoke != null){
-			targetSmoke.Got(damage);
-		}
-		else if(targetWeight != null){
-			targetWeight.Got(damage);
-		}
-		else if(targetGerm != null){
-			targetGerm.Got(damage);
-		}
+		        }
+		        else if(targetBone != null){
+			        targetBone.Got(damage);
+		        }
+		        else if(targetFries != null){
+			        targetFries.Got(damage);
+		        }
+		        else if(targetSoda != null){
+			        targetSoda.Got(damage);
+		        }
+		        else if (targetSmoke != null){
+			        targetSmoke.Got(damage);
+		        }
+		        else if(targetWeight != null){
+			        targetWeight.Got(damage);
+		        }
+		        else if(targetGerm != null){
+			        targetGerm.Got(damage);
+		        }
+                else if (targetTeeth != null){
+                    targetTeeth.Got(damage);
+                }
             }
         }
 
