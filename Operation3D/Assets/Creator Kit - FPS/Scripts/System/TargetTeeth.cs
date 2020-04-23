@@ -38,11 +38,11 @@ public class TargetTeeth : MonoBehaviour
     float m_CurrentHealth;
     static bool CrownText_Appreared = false;
 
-    IEnumerator ShowAndHide(GameObject go, float delay)
+    IEnumerator ShowAndHide1(GameObject go, float delay)
     {
-        go.active = true;
+        go.SetActive(true);
         yield return new WaitForSeconds(delay);
-        go.active = false;
+        go.SetActive(false);
     }
 
     void Awake()
@@ -100,30 +100,30 @@ public class TargetTeeth : MonoBehaviour
 
             if (CounterTeeth.count == 1)
             {
-                StartCoroutine(ShowAndHide(PlaqueText_1, 5.0f));
+                StartCoroutine(ShowAndHide1(PlaqueText_1, 3f));
             } else if (CounterTeeth.count == 8)
             {
-                StartCoroutine(ShowAndHide(PlaqueText_2, 5.0f));
+                StartCoroutine(ShowAndHide1(PlaqueText_2, 3f));
             } else if (CounterTeeth.count == 15)
             {
-                StartCoroutine(ShowAndHide(PlaqueText_3, 5.0f));
+                StartCoroutine(ShowAndHide1(PlaqueText_3, 3f));
             } else if (CounterTeeth.count == 19)
             {
-                StartCoroutine(ShowAndHide(CavityText, 5.0f));
+                StartCoroutine(ShowAndHide1(CavityText, 3f));
             }
 
 
         } else if (ToothUI != null && ToothUI.gameObject.tag == "GoldTooth" && CrownText_Appreared == false)
         {
             CrownText_Appreared = true;
-            StartCoroutine(ShowAndHide(CrownText, 5.0f));
+            StartCoroutine(ShowAndHide1(CrownText, 5.0f));
         }
 
       
         if (CounterTeeth.count == 26)
         {
-            Key.active = true;
-            ThroatTeleport.active = true;
+            Key.SetActive(true);
+            ThroatTeleport.SetActive(true);
         }
     }
 

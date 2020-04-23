@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{E902B408-4CF0-4C39-282E-1DC96C46876E}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Creator Kit - FPS/Scripts/System/TargetTeeth.cs">
     <Files>
-      <File FileName="Assets/ThroatTeleporter.cs" Line="21" Column="1" />
-      <File FileName="Assets/Creator Kit - FPS/Scripts/System/TargetTeeth.cs" Line="100" Column="1" />
+      <File FileName="Assets/ThroatTeleporter.cs" Line="19" Column="6" />
+      <File FileName="Assets/Creator Kit - FPS/Scripts/System/TargetTeeth.cs" Line="112" Column="58" />
+      <File FileName="Assets/Creator Kit - FPS/Scripts/System/Target.cs" Line="109" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f140b311-452e-4629-9f2d-89c85dce476d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="160f222a-a18b-447a-b801-e12c861608cf" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

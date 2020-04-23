@@ -32,13 +32,6 @@ public class Target : MonoBehaviour
     bool m_Destroyed = false;
     float m_CurrentHealth;
 
-    IEnumerator ShowAndHide(GameObject go, float delay)
-    {
-        go.active = true;
-        yield return new WaitForSeconds(delay);
-        go.active = false;
-    }
-
     void Awake()
     {
         Helpers.RecursiveLayerChange(transform, LayerMask.NameToLayer("Target"));
@@ -89,33 +82,35 @@ public class Target : MonoBehaviour
         GameSystem.Instance.TargetDestroyed(pointValue);
 	if(RedBloodCellUI != null){
 	    RedBloodCellUI.SetActive(true);
-            
         Destroy(RedBloodCellUI, 3);
-            if (RedBloodCellUI.gameObject.tag == "Mucus")
-            {
-                CounterMucus.count = CounterMucus.count + 1;
+     }
 
-                if (CounterMucus.count == 3)
-                {
-                    StartCoroutine(ShowAndHide(MucusText_1, 5.0f));
-                }
-                else if (CounterMucus.count == 8)
-                {
-                    StartCoroutine(ShowAndHide(MucusText_2, 5.0f));
-                }
-                else if (CounterMucus.count == 13)
-                {
-                    StartCoroutine(ShowAndHide(MucusText_3, 5.0f));
-                }
-            }
-
-        }
-
-    if (CounterMucus.count == 15)
+        if (RedBloodCellUI.gameObject.tag == "Mucus")
         {
-            Key.active = true;
+            CounterMucus.count = CounterMucus.count + 1;
+
+            if (CounterMucus.count == 3)
+            {
+                MucusText_1.SetActive(true);
+                Destroy(MucusText_1, 2.5f);
+            }
+            else if (CounterMucus.count == 8)
+            {
+                MucusText_2.SetActive(true);
+                Destroy(MucusText_2, 2.5f);
+            }
+            else if (CounterMucus.count == 13)
+            {
+                MucusText_3.SetActive(true);
+                Destroy(MucusText_3, 2.5f);
+            }
         }
-	
+
+        if (CounterMucus.count == 15)
+        {
+            Key.SetActive(true);
+        }
+
     }
 	
 }

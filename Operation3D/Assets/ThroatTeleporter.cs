@@ -12,7 +12,7 @@ public class ThroatTeleporter : MonoBehaviour
         {
             CharacterController cc = player.GetComponent<CharacterController>();
             cc.enabled = false;
-            player.transform.position = new Vector3(-8, 4, -36);
+            player.transform.position = new Vector3(20, 2, -62);
             cc.enabled = true;
         }
 

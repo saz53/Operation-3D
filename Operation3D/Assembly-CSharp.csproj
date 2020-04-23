@@ -63,9 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Cartoon Heavy Weights\CementBlock\BlockBreaker.cs" />
-    <Compile Include="Assets\Cartoon Heavy Weights\Test Scene Resources\Test Scene Scripts\DropWeight.cs" />
-    <Compile Include="Assets\Cartoon Heavy Weights\Test Scene Resources\Test Scene Scripts\WallCreator.cs" />
     <Compile Include="Assets\Creator Kit - FPS\Scripts\Audio\RandomPlayer.cs" />
     <Compile Include="Assets\Creator Kit - FPS\Scripts\Audio\UIAudioPlayer.cs" />
     <Compile Include="Assets\Creator Kit - FPS\Scripts\Audio\WorldAudioPool.cs" />
@@ -110,6 +107,9 @@
     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\PauseMenu.cs" />
     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\RestartLevel.cs" />
     <Compile Include="Assets\Creator Kit - FPS\Scripts\UI\WeaponInfoUI.cs" />
+    <Compile Include="Assets\Imported Assets\Cartoon Heavy Weights\CementBlock\BlockBreaker.cs" />
+    <Compile Include="Assets\Imported Assets\Cartoon Heavy Weights\Test Scene Resources\Test Scene Scripts\DropWeight.cs" />
+    <Compile Include="Assets\Imported Assets\Cartoon Heavy Weights\Test Scene Resources\Test Scene Scripts\WallCreator.cs" />
     <Compile Include="Assets\RedBloodCellUI.cs" />
     <Compile Include="Assets\TargetBone.cs" />
     <Compile Include="Assets\TargetFries.cs" />
@@ -124,13 +124,13 @@
     <None Include="Assets\Creator Kit - FPS\Art\Shaders\Brain.shader" />
     <None Include="Assets\Creator Kit - FPS\Art\Shaders\Fleisch.shader" />
     <None Include="Assets\CreatorKitFPS_Third-PartyNotice.txt" />
-    <None Include="Assets\Cartoon Heavy Weights\readme.txt" />
     <None Include="Assets\Creator Kit - FPS\Art\Shaders\StandardFleischDisolve.shader" />
     <None Include="Assets\Creator Kit - FPS\Art\Shaders\StandardCutout.shader" />
     <None Include="Assets\Creator Kit - FPS\Art\Shaders\BubbleBurst.shader" />
     <None Include="Assets\Creator Kit - FPS\Art\Shaders\LiquidContent.shader" />
     <None Include="Assets\Creator Kit - FPS\Art\Shaders\MapShader.shader" />
     <None Include="Assets\Creator Kit - FPS\Art\Font\OFL.txt" />
+    <None Include="Assets\Imported Assets\Cartoon Heavy Weights\readme.txt" />
     <None Include="Assets\Creator Kit - FPS\Art\Shaders\StandardFleisch.shader" />
     <Reference Include="UnityEngine.UI">
       <HintPath>/Users/kinjalpatel/Desktop/Operation-3D/Operation3D/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
