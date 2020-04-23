@@ -1316,19 +1316,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab677009a8f2314cac1510aafaf8a96, type: 3}
---- !u!1 &334948280 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1463332165799461122, guid: 7c526aefd760d4446883e921c82dfa04,
-    type: 3}
-  m_PrefabInstance: {fileID: 1051805056}
-  m_PrefabAsset: {fileID: 0}
 --- !u!54 &334948282
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 334948280}
+  m_GameObject: {fileID: 1463332166494585986}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -1344,7 +1338,7 @@ SphereCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 334948280}
+  m_GameObject: {fileID: 1463332166494585986}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -1357,7 +1351,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 334948280}
+  m_GameObject: {fileID: 1463332166494585986}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f7f93c4cd1f25874c9bfc2923c743a89, type: 3}
@@ -7046,7 +7040,7 @@ PrefabInstance:
     - target: {fileID: 6816008135400273942, guid: 0ad9d83713f843f4a8daec984ea1f0e3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6816008135400273942, guid: 0ad9d83713f843f4a8daec984ea1f0e3,
         type: 3}
@@ -9512,3 +9506,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ac4102516b6d024393bec334e86412a, type: 3}
+--- !u!1 &1463332166494585986 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1463332165799461122, guid: 7c526aefd760d4446883e921c82dfa04,
+    type: 3}
+  m_PrefabInstance: {fileID: 1051805056}
+  m_PrefabAsset: {fileID: 0}
