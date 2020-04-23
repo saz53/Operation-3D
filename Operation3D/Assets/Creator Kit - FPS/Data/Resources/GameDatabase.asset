@@ -20,10 +20,10 @@ MonoBehaviour:
     - name: Pill
       id: 2
   episodes:
-  - title: Episode
+  - title: Body Parts
     sceneAssets:
-    - {fileID: 102900000, guid: a7f90394e806bb049995d853e82116de, type: 3}
-    - {fileID: 102900000, guid: cf8af1738c3cb4b488b72c399f7898f8, type: 3}
+    - {fileID: 102900000, guid: 26ef91fdc2c434a9da8cd3901a61735c, type: 3}
+    - {fileID: 102900000, guid: 9529ec952c6ef4c4fa0ba02c183cd0ea, type: 3}
     scenes:
-    - Assets/Creator Kit - FPS/Scenes/MyScene.unity
-    - Assets/Creator Kit - FPS/Scenes/ExampleScene.unity
+    - Assets/Creator Kit - FPS/Scenes/MouthScene.unity
+    - Assets/Creator Kit - FPS/Scenes/HeartScene.unity
